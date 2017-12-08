@@ -1,7 +1,7 @@
 class Appointment
 
-  def initialize(name)
-    @name = name
+  def initialize(date)
+    @date = date
     @appointments = []
   end
 
