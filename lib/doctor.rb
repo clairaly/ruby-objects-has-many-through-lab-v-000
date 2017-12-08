@@ -9,4 +9,8 @@ class Doctor
   def add_appointment
     @appointments << appointment
   end
+
+  def appointments
+    @appointments
+  end
 end
